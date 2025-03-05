@@ -79,11 +79,12 @@ footer {
 
 a:link{
     color: #e0b1cb;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
     color: #6f64a8;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -93,5 +94,6 @@ a:hover {
 
 a:active {
     color: #9f86c0;
+    text-decoration: underline;
 }
 
