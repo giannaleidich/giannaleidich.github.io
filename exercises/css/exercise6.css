@@ -18,11 +18,12 @@ h1 {
 
 a:link{
     color: #9d4edd;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
     color: #2a9d8f;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -32,4 +33,5 @@ a:hover {
 
 a:active {
     color: #e76f51;
+    text-decoration: underline;
 }
