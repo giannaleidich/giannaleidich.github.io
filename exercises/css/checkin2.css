@@ -78,22 +78,22 @@ footer {
 
 
 a:link{
-    color: #b56575;
+    color: #8A568F;
     text-decoration: underline;
 }
 
 a:visited {
-    color: #6f64a8;
+    color: #3A3069;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #be95c4;
+    color: #8A568F;
     text-decoration: underline;
 }
 
 a:active {
-    color: #9f86c0;
-    text-decoration: underline;
+    color: #60457D;
+     text-decoration: underline;
 }
 
