@@ -1,0 +1,96 @@
+body {
+    background-color: #eae4e9;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 1.15rem;
+    font-style: normal;
+}
+
+header { 
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2rem;
+    text-align: right;
+    /* text-align: center; */
+}
+
+main {
+    border: 0px #FF0000 solid;
+}
+
+article {
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    padding: 1.3rem;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* for white background */
+a:link {
+    color: #B63E54;
+}
+
+a:visited {
+    color: #7563B0;
+}
+
+a:hover {
+    color: #4A7870;
+}
+
+a:active {
+    color: #20ACBC;
+}
+
+/* for black background */
+header a:link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+header a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+header a:hover {
+    color: #A6C9C3;
+    text-decoration: underline;
+}
+
+header a:active {
+    color: #81DFEA;
+    text-decoration: underline;
+}
+
+h2.logo {
+    background-color: #886983;
+    width: 6rem;
+    height: 6rem;
+    display: grid;  
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.wrapper {
+    border: 0px black solid;
+    margin: 0 auto;
+    max-width: 40rem;
+}
