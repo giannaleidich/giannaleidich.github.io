@@ -1,6 +1,6 @@
-/*<meta Version="9" />*/
-
 /* MadCap Table Style: */
+
+/*<meta Version="9" />*/
 
 mcTableStyle
 {
@@ -8,16 +8,16 @@ mcTableStyle
 	border-collapse: collapse;
 	border-left-style: solid;
 	border-left-width: 0px;
-	border-left-color: #000000;
+	border-left-color: var(--Darkest);
 	border-right-style: solid;
 	border-right-width: 0px;
-	border-right-color: #000000;
+	border-right-color: var(--Darkest);
 	border-top-style: solid;
 	border-top-width: 0px;
-	border-top-color: #000000;
+	border-top-color: var(--Darkest);
 	border-bottom-style: solid;
 	border-bottom-width: 0px;
-	border-bottom-color: #000000;
+	border-bottom-color: var(--Darkest);
 	max-id: 4;
 	border-spacing-y: 21;
 	cell-padding-left: 5px;
@@ -31,7 +31,7 @@ mcTableColumnStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 2px;
-	separator-color: #FFFFFF;
+	separator-color: var(--Lightest);
 	name: Column1;
 	id: 0;
 }
@@ -41,11 +41,11 @@ mcTableHeadStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 1px;
-	separator-color: #FFFFFF;
+	separator-color: var(--Lightest);
 	name: Header1;
 	id: 2;
-	background-color: #076685;
-	color: #FFFFFF;
+	background-color: var(--Primary);
+	color: var(--Lightest);
 	cell-padding-left: 10px;
 	cell-padding-right: 10px;
 	cell-padding-top: 10px;
@@ -57,10 +57,10 @@ mcTableBodyStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 2px;
-	separator-color: #FFFFFF;
+	separator-color: var(--Lightest);
 	name: Body1;
 	id: 1;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	cell-padding-left: 10px;
 	cell-padding-right: 10px;
 	cell-padding-top: 10px;
@@ -75,10 +75,10 @@ mcTableBodyStyle
 	span: 1;
 	id: 4;
 	name: Body2;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	separator-style: solid;
 	separator-width: 2px;
-	separator-color: #FFFFFF;
+	separator-color: var(--Lightest);
 	cell-content-style-tag: p;
 	cell-content-style-class: table-text;
 	cell-padding-left: 10px;
@@ -93,7 +93,7 @@ mcTableFootStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 1px;
-	separator-color: #000000;
+	separator-color: var(--Darkest);
 	name: Footer1;
 	id: 3;
 	cell-padding-left: 10px;
@@ -105,22 +105,23 @@ mcTableFootStyle
 	vertical-align: top;
 }
 
-/* Cell Styles: */
 
+/* Cell Styles: */
+ 
 .TableStyle-Alternate-Row-Color
 {
 	border-collapse: collapse;
 	border-left-style: solid;
-	border-left-color: #000000;
+	border-left-color: var(--Darkest);
 	border-left-width: 0px;
 	border-right-style: solid;
-	border-right-color: #000000;
+	border-right-color: var(--Darkest);
 	border-right-width: 0px;
 	border-top-style: solid;
-	border-top-color: #000000;
+	border-top-color: var(--Darkest);
 	border-top-width: 0px;
 	border-bottom-style: solid;
-	border-bottom-color: #000000;
+	border-bottom-color: var(--Darkest);
 	border-bottom-width: 0px;
 	border-spacing: 0px 21px;
 }
@@ -137,8 +138,8 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadI-Column1-Header1
 {
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -147,55 +148,55 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadI-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadE-Column1-Header1
 {
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 1px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 }
 
 .TableStyle-Alternate-Row-Color-HeadE-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadF-Column1-Header1
 {
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 1px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 }
 
 .TableStyle-Alternate-Row-Color-HeadF-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadH-Column1-Header1
 {
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -204,31 +205,31 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadH-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadD-Column1-Header1
 {
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 1px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 }
 
 .TableStyle-Alternate-Row-Color-HeadD-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadC-Column1-Header1
 {
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -237,16 +238,16 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadC-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadB-Column1-Header1
 {
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -255,13 +256,13 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadB-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadA-Column1-Header1
 {
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -270,13 +271,13 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadA-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-HeadG-Column1-Header1
 {
-	color: #FFFFFF;
-	background-color: #076685;
+	color: var(--Lightest);
+	background-color: var(--Primary);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -285,7 +286,7 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadG-Column1-Header1 p
 {
-	color: #FFFFFF;
+	color: var(--Lightest);
 }
 
 .TableStyle-Alternate-Row-Color-Foot-Footer1
@@ -310,7 +311,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-FootE-Column1-Footer1
 {
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 	vertical-align: top;
 	padding-left: 10px;
@@ -318,7 +319,7 @@ mcTableFootStyle
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top-width: 1px;
-	border-top-color: #000000;
+	border-top-color: var(--Darkest);
 	border-top-style: solid;
 }
 
@@ -335,7 +336,7 @@ mcTableFootStyle
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top-width: 1px;
-	border-top-color: #000000;
+	border-top-color: var(--Darkest);
 	border-top-style: solid;
 }
 
@@ -347,7 +348,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-FootH-Column1-Footer1
 {
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 	vertical-align: top;
 	padding-left: 10px;
@@ -369,7 +370,7 @@ mcTableFootStyle
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top-width: 1px;
-	border-top-color: #000000;
+	border-top-color: var(--Darkest);
 	border-top-style: solid;
 }
 
@@ -395,7 +396,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-FootB-Column1-Footer1
 {
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 	vertical-align: top;
 	padding-left: 10px;
@@ -445,7 +446,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyI-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -460,16 +461,16 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyE-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 }
 
@@ -481,13 +482,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyF-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 }
 
@@ -499,13 +500,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyH-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 }
 
@@ -517,13 +518,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyD-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 }
 
@@ -535,7 +536,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyC-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -550,13 +551,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyB-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 }
 
@@ -568,7 +569,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyA-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -583,7 +584,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyG-Column1-Body1
 {
 	vertical-align: top;
-	background-color: #DADEE1;
+	background-color: var(--Light);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -603,7 +604,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyI-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -618,16 +619,16 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyE-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 }
 
@@ -639,13 +640,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyF-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 }
 
@@ -657,13 +658,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyH-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 }
 
@@ -675,13 +676,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyD-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: var(--Lightest);
 	border-bottom-style: solid;
 }
 
@@ -693,7 +694,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyC-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -708,13 +709,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyB-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: #FFFFFF;
+	border-right-color: var(--Lightest);
 	border-right-style: solid;
 }
 
@@ -726,7 +727,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyA-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -741,7 +742,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyG-Column1-Body2
 {
 	vertical-align: top;
-	background-color: #A4AAAE;
+	background-color: var(--Medium);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -752,4 +753,5 @@ mcTableFootStyle
 {
 	
 }
+
 
