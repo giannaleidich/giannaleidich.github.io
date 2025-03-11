@@ -1,6 +1,6 @@
-/* MadCap Table Style: */
-
 /*<meta Version="9" />*/
+
+/* MadCap Table Style: */
 
 mcTableStyle
 {
@@ -8,16 +8,16 @@ mcTableStyle
 	border-collapse: collapse;
 	border-left-style: solid;
 	border-left-width: 0px;
-	border-left-color: var(--Darkest);
+	border-left-color: #000000;
 	border-right-style: solid;
 	border-right-width: 0px;
-	border-right-color: var(--Darkest);
+	border-right-color: #000000;
 	border-top-style: solid;
 	border-top-width: 0px;
-	border-top-color: var(--Darkest);
+	border-top-color: #000000;
 	border-bottom-style: solid;
 	border-bottom-width: 0px;
-	border-bottom-color: var(--Darkest);
+	border-bottom-color: #000000;
 	max-id: 4;
 	border-spacing-y: 21;
 	cell-padding-left: 5px;
@@ -31,7 +31,7 @@ mcTableColumnStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 2px;
-	separator-color: var(--Lightest);
+	separator-color: #FFFFFF;
 	name: Column1;
 	id: 0;
 }
@@ -41,11 +41,11 @@ mcTableHeadStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 1px;
-	separator-color: var(--Lightest);
+	separator-color: #FFFFFF;
 	name: Header1;
 	id: 2;
-	background-color: var(--Primary);
-	color: var(--Lightest);
+	background-color: #076685;
+	color: #FFFFFF;
 	cell-padding-left: 10px;
 	cell-padding-right: 10px;
 	cell-padding-top: 10px;
@@ -57,10 +57,10 @@ mcTableBodyStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 2px;
-	separator-color: var(--Lightest);
+	separator-color: #FFFFFF;
 	name: Body1;
 	id: 1;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	cell-padding-left: 10px;
 	cell-padding-right: 10px;
 	cell-padding-top: 10px;
@@ -75,10 +75,10 @@ mcTableBodyStyle
 	span: 1;
 	id: 4;
 	name: Body2;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	separator-style: solid;
 	separator-width: 2px;
-	separator-color: var(--Lightest);
+	separator-color: #FFFFFF;
 	cell-content-style-tag: p;
 	cell-content-style-class: table-text;
 	cell-padding-left: 10px;
@@ -93,7 +93,7 @@ mcTableFootStyle
 	span: 1;
 	separator-style: solid;
 	separator-width: 1px;
-	separator-color: var(--Darkest);
+	separator-color: #000000;
 	name: Footer1;
 	id: 3;
 	cell-padding-left: 10px;
@@ -105,23 +105,22 @@ mcTableFootStyle
 	vertical-align: top;
 }
 
-
 /* Cell Styles: */
- 
+
 .TableStyle-Alternate-Row-Color
 {
 	border-collapse: collapse;
 	border-left-style: solid;
-	border-left-color: var(--Darkest);
+	border-left-color: #000000;
 	border-left-width: 0px;
 	border-right-style: solid;
-	border-right-color: var(--Darkest);
+	border-right-color: #000000;
 	border-right-width: 0px;
 	border-top-style: solid;
-	border-top-color: var(--Darkest);
+	border-top-color: #000000;
 	border-top-width: 0px;
 	border-bottom-style: solid;
-	border-bottom-color: var(--Darkest);
+	border-bottom-color: #000000;
 	border-bottom-width: 0px;
 	border-spacing: 0px 21px;
 }
@@ -138,8 +137,8 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadI-Column1-Header1
 {
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -148,55 +147,55 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadI-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadE-Column1-Header1
 {
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 1px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 }
 
 .TableStyle-Alternate-Row-Color-HeadE-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadF-Column1-Header1
 {
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 1px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 }
 
 .TableStyle-Alternate-Row-Color-HeadF-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadH-Column1-Header1
 {
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -205,31 +204,31 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadH-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadD-Column1-Header1
 {
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 1px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 }
 
 .TableStyle-Alternate-Row-Color-HeadD-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadC-Column1-Header1
 {
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -238,16 +237,16 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadC-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadB-Column1-Header1
 {
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -256,13 +255,13 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadB-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadA-Column1-Header1
 {
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -271,13 +270,13 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadA-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-HeadG-Column1-Header1
 {
-	color: var(--Lightest);
-	background-color: var(--Primary);
+	color: #FFFFFF;
+	background-color: #076685;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -286,7 +285,7 @@ mcTableFootStyle
 
 .TableStyle-Alternate-Row-Color-HeadG-Column1-Header1 p
 {
-	color: var(--Lightest);
+	color: #FFFFFF;
 }
 
 .TableStyle-Alternate-Row-Color-Foot-Footer1
@@ -311,7 +310,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-FootE-Column1-Footer1
 {
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 	vertical-align: top;
 	padding-left: 10px;
@@ -319,7 +318,7 @@ mcTableFootStyle
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top-width: 1px;
-	border-top-color: var(--Darkest);
+	border-top-color: #000000;
 	border-top-style: solid;
 }
 
@@ -336,7 +335,7 @@ mcTableFootStyle
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top-width: 1px;
-	border-top-color: var(--Darkest);
+	border-top-color: #000000;
 	border-top-style: solid;
 }
 
@@ -348,7 +347,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-FootH-Column1-Footer1
 {
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 	vertical-align: top;
 	padding-left: 10px;
@@ -370,7 +369,7 @@ mcTableFootStyle
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top-width: 1px;
-	border-top-color: var(--Darkest);
+	border-top-color: #000000;
 	border-top-style: solid;
 }
 
@@ -396,7 +395,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-FootB-Column1-Footer1
 {
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 	vertical-align: top;
 	padding-left: 10px;
@@ -446,7 +445,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyI-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -461,16 +460,16 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyE-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 }
 
@@ -482,13 +481,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyF-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 }
 
@@ -500,13 +499,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyH-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 }
 
@@ -518,13 +517,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyD-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 }
 
@@ -536,7 +535,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyC-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -551,13 +550,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyB-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 }
 
@@ -569,7 +568,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyA-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -584,7 +583,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyG-Column1-Body1
 {
 	vertical-align: top;
-	background-color: var(--Light);
+	background-color: #DADEE1;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -604,7 +603,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyI-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -619,16 +618,16 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyE-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 }
 
@@ -640,13 +639,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyF-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 }
 
@@ -658,13 +657,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyH-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 }
 
@@ -676,13 +675,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyD-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-bottom-width: 2px;
-	border-bottom-color: var(--Lightest);
+	border-bottom-color: #FFFFFF;
 	border-bottom-style: solid;
 }
 
@@ -694,7 +693,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyC-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -709,13 +708,13 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyB-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-right-width: 2px;
-	border-right-color: var(--Lightest);
+	border-right-color: #FFFFFF;
 	border-right-style: solid;
 }
 
@@ -727,7 +726,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyA-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -742,7 +741,7 @@ mcTableFootStyle
 .TableStyle-Alternate-Row-Color-BodyG-Column1-Body2
 {
 	vertical-align: top;
-	background-color: var(--Medium);
+	background-color: #A4AAAE;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -753,5 +752,4 @@ mcTableFootStyle
 {
 	
 }
-
 
