@@ -1,0 +1,105 @@
+body {
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.wrapper {
+    /* border: 3px solid black; */
+    display: grid;
+    grid-template-rows: min-content min-content min-content 1fr;
+    grid-template-columns: 2fr 5fr 2fr;
+    min-height: 100vh;
+}
+
+header {
+    background-color: azure;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.emptyspaceleft {
+    background-color: white;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+main {
+    background-color: white;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 2rem;
+}
+
+.emptyspaceright {
+    background-color: white;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+footer {
+    background-color: lightgray;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    /* text-align: center; */
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+}
+
+h2 {
+    /* text-align: center; */
+    padding: 12px;
+    font-size: 2rem;
+    /* border: solid red; */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+nav > ul > li {
+    background-color: lavender;
+    list-style-type: none;
+    padding: 18px;
+}
+
+nav > ul > li:hover {
+    background-color: lavenderblush;
+
+    list-style-type: none;
+    padding: 18px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+nav > ul {
+    display: flex;
+    padding: 0;
+    background-color: lavender;
+    margin: 0px;
+}
