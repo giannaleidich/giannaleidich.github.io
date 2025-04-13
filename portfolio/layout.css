@@ -1,0 +1,110 @@
+/* initialize body grid */
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+}
+
+/* header */
+header {
+    grid-row: 1/2;
+    background-color: white;
+
+    display: grid;
+    align-content: center;
+}
+
+/* initialize navbar grid */
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+
+    display: grid;
+    grid-template-columns: min-content 1fr min-content min-content min-content min-content;
+    grid-template-rows: 5vh;
+}
+
+/* style navbar items */
+nav > ul > li {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    list-style-type: none;
+    white-space: nowrap;
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}  
+
+/* put items in their grid boxes */
+#nav-spacer {
+    grid-column: 2/3
+}
+
+#about-me {
+    grid-column: 3/4;
+}
+
+#portfolio {
+    grid-column: 4/5;
+}
+
+#resume {
+    grid-column: 5/6;
+}
+
+#contact {
+    grid-column: 6/7;
+    margin-right: 25px;
+}
+
+/* style navbar links */
+nav > ul > li > a:not(#gianna-leidich-link){
+    text-decoration: none;
+
+    color: black;
+    background-color: #EEEEEE;
+
+    border-radius: 12.5px;
+    padding: 10px;
+}
+
+nav > ul > li > a:not(#gianna-leidich-link):hover {
+    color: black;
+    background-color: #DDDDDD;
+}
+
+/* special styling */
+#gianna-leidich {
+    grid-column: 1/2;
+
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+
+    margin-left: 25px;
+}
+
+#gianna-leidich-link {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    grid-row: 2/3;
+
+    background-color: lavender;
+}
+
