@@ -5,7 +5,7 @@ body {
     overflow: hidden;
 
     display: grid;
-    grid-template-rows: 10vh 90vh;
+    grid-template-rows: min-content 100vh;
 }
 
 /* header */
@@ -15,6 +15,9 @@ header {
 
     display: grid;
     align-content: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* initialize navbar grid */
@@ -102,9 +105,93 @@ nav > ul > li > a:not(#gianna-leidich-link):hover {
     color: black;
 }
 
+/* main */
 main {
     grid-row: 2/3;
 
     background-color: lavender;
 }
 
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    body {
+        overflow: auto;
+
+        display: grid;
+        grid-template-rows: min-content 100vh;
+    }
+
+    nav > ul {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 10vw 10vw 10vw 10vw 10vw;  */
+        grid-template-rows: min-content min-content min-content min-content min-content
+    }
+
+    nav > ul > li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    nav > ul > li:not(#gianna-leidich) {
+        background-color: #EEEEEE;
+        border-radius: 12.5px;
+    }
+
+    nav > ul > li:not(#gianna-leidich):hover {
+        background-color: #DDDDDD;
+    }
+
+    nav > ul > li > a:not(#gianna-leidich-link){
+        background-color: transparent;
+        /* border: solid red; */
+    }
+
+
+    #gianna-leidich {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 15px;
+    }
+
+    #about-me {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #portfolio {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    #resume {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    #contact {
+        grid-column: 1/2;
+        grid-row: 5/6;
+
+        margin-right: 15px;
+    }
+
+    #nav-spacer {
+        display: none; 
+    }
+}
+
+
+
+#hidden {
+    display: none;
+}
