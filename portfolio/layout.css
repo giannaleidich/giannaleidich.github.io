@@ -5,7 +5,7 @@ body {
     overflow: hidden;
 
     display: grid;
-    grid-template-rows: 5vh 80vh 5vh;
+    grid-template-rows: 10vh 80vh 10vh;
 
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
