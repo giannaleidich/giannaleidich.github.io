@@ -5,7 +5,7 @@ body {
     overflow: hidden;
 
     display: grid;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 5vh 80vh 5vh;
 
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
@@ -253,12 +253,14 @@ a:not(#gianna-leidich-link):hover {
 
     padding-left: 25px;
     padding-right: 25px;
-
-    /* background-color: lightsteelblue; */
 }
 
 #home-content-text > p {
     margin-top: 0px;
+}
+
+#home-content-links-container {
+    line-height: 60px;
 }
 
 #home-content-text > h1 {
@@ -269,36 +271,26 @@ a:not(#gianna-leidich-link):hover {
     font-size: 3.5rem;
 }
 
-#left-resume {
-    margin-right: 15px;
+#home-content-text > a {
+    color: red;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-#right-contact {
-    margin-left: 15px;
-}
 
 
 
 
-/* @media only screen and (max-width: 1162px) {
+@media only screen and (max-width: 900px) {
     body {
         overflow: scroll;
-        background-color: lightblue;
 
     }
 
-    main {
+    #home-page {
         display: grid;
         grid-template-columns: 1fr 60vw 1fr;
-        grid-template-rows: 1fr 1000fr 1fr;
-    }
-
-    #top-spacer {
-        background-color: red;
-    }
-
-    #bottom-spacer {
-        background-color: orange;
+        grid-template-rows: 1fr 80vh 1fr;
     }
 
     #left-spacer {
@@ -312,15 +304,24 @@ a:not(#gianna-leidich-link):hover {
     #home-content {
         grid-column: 1/4;
         
-        display: block;
-        border: solid;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60% 40%;
     }
 
     #home-content-text {
+        grid-column: 1/2;
+        grid-row: 2/3;
 
+        padding-top: 15px;
     }
 
-    img {
-        display: none;
+
+    #home-content >  img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    
+        grid-column: 1/2;
     }
-} */
+}
