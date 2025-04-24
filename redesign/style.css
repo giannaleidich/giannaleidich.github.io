@@ -1,0 +1,373 @@
+/* apply throughout page */
+p, figcaption {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.25rem;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 2.5rem;
+
+    margin-bottom: 20px;
+}
+
+
+/* structure in tag selectors, color in class selectors */
+body {
+    margin: 0px;
+    padding: 0px;
+
+    display: grid;
+    grid-template-rows: 15.5vh 1fr min-content;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* header */
+header {
+    grid-row: 1/2;
+
+    display: grid;
+    grid-template-rows: 10vh 5.5vh;
+}
+
+#header-top {
+    grid-row: 1/2;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: min-content 1fr min-content min-content min-content;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#home.contrast-regular.mode-light #header-top {
+    background-color: #f3f3f3;
+}
+
+#home.contrast-high.mode-light #header-top {
+    background-color: #fdfdfd;
+}
+
+#home.contrast-regular.mode-dark #header-top {
+    background-color: #535353;
+}
+
+#home.contrast-high.mode-dark #header-top {
+    background-color: #424242;
+}
+
+
+/* icons */
+#logo {
+    grid-column: 1/2;
+
+    height: 7.5vh;
+    width: auto;
+
+    margin-left: 10px;
+}
+
+.icon {
+    height: 6vh;
+    width: 6vh;
+}
+
+#header-top > button {
+    padding: 0px;
+    margin: 0px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: transparent;
+    border: none;
+}
+
+
+/* navbar */
+nav > ul {
+    grid-row: 2/3;
+
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    overflow: hidden; 
+    
+    height: 5.5vh; 
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#home.contrast-regular.mode-light nav > ul {
+    background-color: #e9e9e9;
+}
+
+#home.contrast-high.mode-light nav > ul {
+    background-color: #d6d6d6;
+}
+
+#home.contrast-regular.mode-dark nav > ul {
+    background-color: #414141;
+}
+
+#home.contrast-high.mode-dark nav > ul {
+    background-color: #373737;
+}
+
+
+nav > ul > li {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    white-space: nowrap;
+
+    padding: 1vh;
+
+    color: black;
+    border-radius: 5px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#home.contrast-regular.mode-light nav > ul > li > a {
+    background-color: #d6d6d6;
+}
+
+#home.contrast-regular.mode-light nav > ul > li > a:hover {
+    background-color: #cccccc;
+}
+
+#home.contrast-regular.mode-light nav > ul > li > a:active {
+    background-color: #c5c5c5;
+}
+
+
+#home.contrast-high.mode-light nav > ul > li > a {
+    background-color: #a0a0a0;
+}
+
+#home.contrast-high.mode-light nav > ul > li > a:hover {
+    background-color: #939393;
+}
+
+#home.contrast-high.mode-light nav > ul > li > a:active {
+    background-color: #808080;
+}
+
+
+#home.contrast-regular.mode-dark nav > ul > li > a {
+    color: white;
+    background-color: #323232;
+}
+
+#home.contrast-regular.mode-dark nav > ul > li > a:hover {
+    color: white;
+    background-color: #282828;
+}
+
+#home.contrast-regular.mode-dark nav > ul > li > a:active {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+#home.contrast-high.mode-dark nav > ul > li > a {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+#home.contrast-high.mode-dark nav > ul > li > a:hover {
+    color: white;
+    background-color: #191919;
+}
+
+#home.contrast-high.mode-dark nav > ul > li > a:active {
+    color: white;
+    background-color: #141414;
+}
+
+
+/* main */
+#home > main {
+    display: grid;
+    grid-template-rows: 80vh min-content min-content;
+    /* should make auto? */
+}
+
+/* hero image */
+#home > main > img {
+    grid-row: 1/2;
+
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    padding-left: 20vw;
+    padding-right: 20vw; 
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    /* change to margin to see box edges */
+}
+
+/* defining leadership */
+#defining-leadership {
+    display: grid;
+    grid-template-columns: 1fr 225px;
+    grid-template-rows: min-content min-content;
+
+    border: solid red;
+}
+
+#defining-leadership > h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#defining-leadership > p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-right: 1vw;
+}
+
+#headshot {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#headshot > img {
+    height: 225px;
+    width: 225px;
+    border-radius: 200px;
+}
+
+/* moving forward in westchester */
+#moving-forward-in-westchester {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: min-content min-content min-content;
+
+    border: solid blue;
+}
+
+#moving-forward-in-westchester > h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#sworn-in {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 10px;
+
+}
+
+#earth-month {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 10px;
+}
+
+#sworn-in > img, #earth-month > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#sworn-in-caption {
+    margin-right: 10px;
+}
+
+#earth-month-caption {
+    margin-left: 10px;
+}
+
+#sworn-in-caption, #earth-month-caption {
+    padding: 10px;
+}
+
+#home.contrast-regular.mode-light #sworn-in-caption, #earth-month-caption {
+    background-color: #f3f3f3;
+}
+
+
+
+#working-for-you {
+    border: solid green;
+}
+
+
+
+
+/* footer */
+footer {
+    color: white;
+
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+footer > p, footer > address {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer > p {
+    margin-bottom: 10px;
+}
+
+#home.contrast-regular.mode-light footer {
+    background-color: #3b3d40;
+}
+
+#home.contrast-high.mode-light footer {
+    background-color: #323438;
+}
+
+#home.contrast-regular.mode-dark footer {
+    background-color: #1f2123;
+}
+
+#home.contrast-high.mode-dark footer {
+    background-color: #141516;
+}
+
+
+
