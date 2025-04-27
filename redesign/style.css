@@ -237,7 +237,7 @@ nav > ul > li > a {
     grid-template-columns: 1fr 225px;
     grid-template-rows: min-content min-content;
 
-    border: solid red;
+/*     border: solid red; */
 }
 
 #defining-leadership > h1 {
