@@ -33,7 +33,7 @@ p {
     padding: 0px;
 
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 #home-body {
@@ -370,6 +370,7 @@ nav > ul > li {
     margin-bottom: 40px;
 }
 
+
 .bottom-button {
     text-align: center;
     margin-bottom: 0px;
@@ -492,7 +493,7 @@ nav > ul > li {
 }
 
 .portfolio-item + .portfolio-item {
-    margin-top: 45px;
+    margin-top: 60px;
 }
 
 
@@ -509,6 +510,7 @@ nav > ul > li {
     grid-template-rows: min-content 1fr min-content;
     /* grid-template-rows: min-content 1fr; */
     column-gap: 5%;
+
 }
 
 .case-studies-item img {
@@ -535,7 +537,6 @@ nav > ul > li {
 .writing-samples-item + .writing-samples-item {
     margin-top: 45px;
 }
-
 
 .link-item {
     margin-top: 20px;
@@ -572,3 +573,28 @@ nav > ul > li {
     margin-top: 30px;
 }
 
+
+#contact-page > img {
+    height: auto;
+    width: 35%;
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#contact-page > p {
+    margin-bottom: 40px;
+}
+
+#contact-body {
+    overflow: hidden;
+}
+
+.default-link + .default-link {
+    margin-left: 10px;
+}
