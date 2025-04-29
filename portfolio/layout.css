@@ -269,9 +269,11 @@ nav > ul > li {
 }
 
 #home-content-text > p {
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: 7.5px;
+    margin-bottom: 25px;
+    line-height: 2.15rem;
 }
+
 
 #home-content-links-container {
     line-height: 60px;
@@ -292,7 +294,9 @@ nav > ul > li {
     grid-column: 1/2;
 }
 
-
+#home-content p {
+    margin-bottom: 0px;
+}
 
 
 
@@ -497,6 +501,11 @@ nav > ul > li {
 }
 
 
+.link-item a + .link-item a{
+    color: red;
+}
+
+
 #case-studies-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -580,8 +589,8 @@ nav > ul > li {
 
     display: block;
 
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 
     margin-top: 30px;
     margin-bottom: 45px;
@@ -595,6 +604,149 @@ nav > ul > li {
     overflow: hidden;
 }
 
+.default-link {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 900px) {
+    #contact-body {
+        overflow: scroll;
+    }
+}
+
+
 .default-link + .default-link {
-    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+
+/* cds */
+#carousel-cds {
+    position: relative;
+    width: 100%; 
+}
+  
+.carousel-item {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#overlay-cds {
+    opacity: 0;
+    transition: .5s ease-in;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    font-size: 1.75rem;
+    padding: 0.5rem;
+}
+
+#overlay-cds.left {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+    width: 25%;
+
+    opacity: 0;
+    transition: .5s ease-in;
+
+    background-color: white;
+}
+
+#overlay-cds.right {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 100;
+    right: 0;
+
+    height: 100%;
+    width: 25%;
+
+    opacity: 0;
+    transition: 0.75s ease-in;
+
+    background-color: white;
+}
+
+#overlay-cds.hover {
+    opacity: 75%;
+}
+
+
+/* jabberwocky */
+#carousel-jabberwocky {
+    position: relative;
+    width: 100%; 
+    /* set width in container */
+  }
+  
+.carousel-item {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#overlay-jabberwocky {
+    opacity: 0;
+    transition: .5s ease-in;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    font-size: 1.75rem;
+    padding: 0.5rem;
+}
+
+#overlay-jabberwocky.left {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+    width: 25%;
+
+    opacity: 0;
+    transition: .5s ease-in;
+
+    background-color: white;
+}
+
+#overlay-jabberwocky.right {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 100;
+    right: 0;
+
+    height: 100%;
+    width: 25%;
+
+    opacity: 0;
+    transition: 0.75s ease-in;
+
+    background-color: white;
+}
+
+#overlay-jabberwocky.hover {
+    opacity: 75%;
+}
+
+.special {
+    color: white;
 }

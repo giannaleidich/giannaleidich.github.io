@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <link href="./layout.css" rel="stylesheet">
+    <!-- <link href="./style.css" rel="stylesheet"> -->
     <title>Portfolio</title>
 </head>
 
@@ -48,10 +49,11 @@
                         </p>
                     </div>
 
-                    <a href="./home.html">
+                    <a href="./home.html" class="no-touch">
                         <img src="../images/personal-website.png" alt="Gianna Leidich's website home page.">
                     </a>
-                    <a href="https://giannaleidich.github.io/redesign/index.html">
+
+                    <a href="https://giannaleidich.github.io/redesign/index.html" class="no-touch">
                         <img src="../images/westchester-redesign.png" alt="UMass Farmer's Market Map home page.">
                     </a>
 
@@ -163,14 +165,17 @@
                         </p>
                             
                     </div>
-                        
+                    
+                
                     <div><p> </p></div>
                     <!-- spacer -->
 
-                    <div class="link-item">
+                    <p class="link-item special">
                         <a href="#" class="default-link">View the PDF</a>
+                        _
                         <a href="https://giannaleidich.github.io/flare/Content/Home.htm" class="default-link">Visit the Website</a>
-                    </div>
+                    </p>
+                    
                         
                     <div><p> </p></div>
                     <!-- spacer -->
@@ -194,16 +199,26 @@
                     </div>
 
                     <div>
-                        <img src="../images/cds-graphic.png" alt="UMass Center for Data Science LinkedIn">
+                        <div id="carousel-cds">
+                            <div id="overlay-cds" class="left">
+                            </div>
+                            <img src="../images/graphics/cds-graphic-hfa.png" class="carousel-item">
+                        </div>
+
                         <div class="link-item">
                             <a href="https://www.linkedin.com/company/umass-center-for-data-science" class="default-link">Visit the LinkedIn</a>
                         </div>
-                    </div>
+                    </div>  
 
                     <div>
-                        <img src="../images/jabberwocky-graphic.png" alt="Jabberwocky Instagram account">
+                        <div id="carousel-jabberwocky">
+                            <div id="overlay-jabberwocky" class="left">
+                            </div>
+                            <img src="../images/graphics/jabberwocky-graphic-poster.png" class="carousel-item">
+                        </div>
+
                         <div class="link-item">
-                            <a href="https://www.instagram.com/umassjabberwocky/" class="default-link">Visit the Instagram</a>
+                            <a href="https://www.linkedin.com/company/umass-center-for-data-science" class="default-link">Visit the LinkedIn</a>
                         </div>
                     </div>
 
@@ -214,10 +229,13 @@
 
         </div>
 
+        
+
 
 
     </main>
 
 
+    <script src="./script.js"></script>
 </body>
 </html>
