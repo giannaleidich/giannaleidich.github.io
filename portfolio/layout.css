@@ -149,7 +149,7 @@ nav > ul > li {
 @media only screen and (max-width: 900px) {
     #home-body {
         display: grid;
-        grid-template-rows: min-content 100vh;
+        grid-template-rows: min-content 100vh min-content;
         overflow: scroll;
     }
 
@@ -308,7 +308,7 @@ nav > ul > li {
     #home-page {
         display: grid;
         grid-template-columns: 1fr 60vw 1fr;
-        grid-template-rows: 1fr 80vh 1fr;
+        grid-template-rows: 1fr 100vh 1fr;
     }
 
     #left-spacer {
