@@ -1,4 +1,4 @@
-import { Store } from "store.js";
+import { Store } from "./store.js";
 
 const contrast_button = document.getElementById("contrast-button");
 const mode_button = document.getElementById("mode-button");
@@ -24,6 +24,22 @@ let TEXT_FLAG = 0;
 
 let PAGE = null;
 
+// initialize storage
+const STORAGE = Store.store();
+if (STORAGE.get("contrast") === null) {
+    STORAGE.set("contrast", "contrast-regular");
+}
+
+if (STORAGE.get("mode") === null) {
+    STORAGE.set("mode", "mode-light");
+}
+
+if (STORAGE.get("text") === null) {
+    STORAGE.set("text", "text-regular");
+} 
+
+
+
 const assignPage = () => {
     if (home !== null) {
         PAGE = home;
@@ -37,72 +53,37 @@ const assignPage = () => {
         PAGE = transportation;
     }
 }
+// initialize page load 
+
+window.addEventListener("load", () => {
+    assignPage();
+    PAGE.classList.add(STORAGE.get("contrast")); // should not be null at this point
+    PAGE.classList.add(STORAGE.get("mode")); 
+    PAGE.classList.add(STORAGE.get("text"));
+})
 
 
 // buttons toggle between the two different options
 contrast_button.addEventListener("click", () => {
     assignPage();
-    if (CONTRAST_FLAG) { // high contrast 
-        PAGE.classList.remove("contrast-high");
-        PAGE.classList.add("contrast-regular");
-        CONTRAST_FLAG = 0;
+    const values = STORAGE.toggle("contrast");
 
-        alert("Contrast set to: REGULAR");
-
-        console.log("CHANGE TO REGULAR CONTRAST");
-
-    } else { // regular
-        PAGE.classList.remove("contrast-regular");
-        PAGE.classList.add("contrast-high");
-        CONTRAST_FLAG = 1;
-
-        alert("Contrast set to: HIGH");
-
-        console.log("CHANGE TO HIGH CONTRAST");
-    }
+    PAGE.classList.remove(values[0]);
+    PAGE.classList.add(values[1]);
 });
 
 mode_button.addEventListener("click", () => {
     assignPage();
-    if (MODE_FLAG) { // dark mode
-        PAGE.classList.remove("mode-dark");
-        PAGE.classList.add("mode-light");
-        MODE_FLAG = 0;
-
-        alert("Mode set to: LIGHT");
-
-        console.log("CHANGE TO LIGHT MODE");
-
-    } else { // light mode 
-        PAGE.classList.remove("mode-light");
-        PAGE.classList.add("mode-dark");
-        MODE_FLAG = 1;
-
-        alert("Mode set to: DARK");
-
-        console.log("CHANGE TO DARK MODE");
-    }
+    const values = STORAGE.toggle("mode");
+    PAGE.classList.remove(values[0]);
+    PAGE.classList.add(values[1]);
 })
 
 text_button.addEventListener("click", () => {
     assignPage();
-    if (TEXT_FLAG) {
-        PAGE.classList.remove("text-large");
-        PAGE.classList.add("text-regular");
-        TEXT_FLAG = 0;
-
-        alert("Text size set to: REGULAR")
-
-        console.log("CHANGE TO REGULAR TEXT")
-    } else { // set to larger text
-        PAGE.classList.remove("text-regular");
-        PAGE.classList.add("text-large")
-        TEXT_FLAG = 1;
-        
-        alert("Text size set to: LARGE");
-
-        console.log("CHANGE TO LARGE TEXT")
-    }
+    const values = STORAGE.toggle("text");
+    PAGE.classList.remove(values[0]);
+    PAGE.classList.add(values[1]);
 })
 
 
