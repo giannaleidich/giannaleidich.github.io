@@ -6,15 +6,15 @@
 	{
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-color: #076685;
+		background-color: #42473d;
 	}
 
 	.title-bar-layout a.logo
 	{
-		width: 229px;
-		height: 55px;
-		background: transparent url('Images/Logo.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+		width: 230px;
+		height: 56px;
+		background: transparent url('Images/my-logo.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/my-logo.png') no-repeat center center;
 	}
 
 	.search-bar .search-submit
@@ -27,7 +27,7 @@
 	{
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	.search-input
@@ -97,7 +97,7 @@
 	{
 		left: auto;
 		right: -25px;
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	div.central-dropdown-content > a
@@ -202,32 +202,32 @@
 
 	ul.off-canvas-list li a:hover
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	ul.off-canvas-list ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	ul.off-canvas-list ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	ul.off-canvas-list ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	ul.off-canvas-list ul ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	ul.off-canvas-list li.js-drilldown-back > a:hover
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	#resultList .glossary .term a:hover
@@ -287,7 +287,7 @@
 
 	.central-separator
 	{
-		background-color: #DADEE1;
+		background-color: #e7ded6;
 	}
 
 	.featured-snippets-container
@@ -404,23 +404,23 @@
 
 	.knowledge-panel-container.micro-content-truncated-mode .micro-content-expand-transition
 	{
-		background: -moz-linear-gradient(top, transparent 0%, #FFFFFF 100%);
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#FFFFFF));
-		background: -webkit-linear-gradient(top, transparent 0%, #FFFFFF 100%);
-		background: -o-linear-gradient(top, transparent 0%,#FFFFFF 100%);
-		background: -ms-linear-gradient(top, transparent 0%,#FFFFFF 100%);
-		background: linear-gradient(transparent 0%,#FFFFFF 100%);
-		-pie-background: linear-gradient(transparent, #FFFFFF);
+		background: -moz-linear-gradient(top, transparent 0%, #f0ece4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#f0ece4));
+		background: -webkit-linear-gradient(top, transparent 0%, #f0ece4 100%);
+		background: -o-linear-gradient(top, transparent 0%,#f0ece4 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#f0ece4 100%);
+		background: linear-gradient(transparent 0%,#f0ece4 100%);
+		-pie-background: linear-gradient(transparent, #f0ece4);
 	}
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 55px;
+		min-height: 56px;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 55px;
+		min-height: 56px;
 	}
 
 	.off-canvas-wrapper-inner .main-section > .outer-row
@@ -643,13 +643,13 @@
 
 	.micro-content-proxy.knowledge.micro-content-truncated-mode .micro-content-expand-transition
 	{
-		background: -moz-linear-gradient(top, transparent 0%, #FFFFFF 100%);
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#FFFFFF));
-		background: -webkit-linear-gradient(top, transparent 0%, #FFFFFF 100%);
-		background: -o-linear-gradient(top, transparent 0%,#FFFFFF 100%);
-		background: -ms-linear-gradient(top, transparent 0%,#FFFFFF 100%);
-		background: linear-gradient(transparent 0%,#FFFFFF 100%);
-		-pie-background: linear-gradient(transparent, #FFFFFF);
+		background: -moz-linear-gradient(top, transparent 0%, #f0ece4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#f0ece4));
+		background: -webkit-linear-gradient(top, transparent 0%, #f0ece4 100%);
+		background: -o-linear-gradient(top, transparent 0%,#f0ece4 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#f0ece4 100%);
+		background: linear-gradient(transparent 0%,#f0ece4 100%);
+		-pie-background: linear-gradient(transparent, #f0ece4);
 	}
 
 	.micro-content-proxy.promotion .micro-content-drop-down-button
@@ -761,12 +761,12 @@
 
 	.off-canvas
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	.off-canvas ul ul
 	{
-		background-color: #45494C;
+		background-color: #3c352d;
 	}
 
 	ul.off-canvas-list li a
@@ -839,7 +839,7 @@
 
 	.search-auto-complete ul
 	{
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	.search-auto-complete li.auto-result-item a
@@ -869,17 +869,17 @@
 
 	.search-auto-complete li.auto-result-item.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e7ded6;
 	}
 
 	.search-auto-complete li.auto-result-content.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e7ded6;
 	}
 
 	.search-auto-complete li.auto-result-history.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e7ded6;
 	}
 
 	.search-auto-complete li.auto-result-item .auto-result-description
@@ -979,18 +979,18 @@
 	.search-filter-content
 	{
 		top: 2em;
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	.search-bar .search-filter-wrapper.open
 	{
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	.search-bar .search-filter:hover
 	{
 		background-repeat: no-repeat;
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	.search-bar .search-filter.selected
@@ -1001,12 +1001,12 @@
 
 	.search-filter-content ul li:hover
 	{
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	.search-filter-content ul li button:focus
 	{
-		background-color: #FFFFFF;
+		background-color: #f0ece4;
 	}
 
 	#resultList .glossary .definition
@@ -1122,13 +1122,13 @@
 
 	.featured-snippets-container.micro-content-truncated-mode .micro-content-expand-transition
 	{
-		background: -moz-linear-gradient(top, transparent 0%, #FFFFFF 100%);
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#FFFFFF));
-		background: -webkit-linear-gradient(top, transparent 0%, #FFFFFF 100%);
-		background: -o-linear-gradient(top, transparent 0%,#FFFFFF 100%);
-		background: -ms-linear-gradient(top, transparent 0%,#FFFFFF 100%);
-		background: linear-gradient(transparent 0%,#FFFFFF 100%);
-		-pie-background: linear-gradient(transparent, #FFFFFF);
+		background: -moz-linear-gradient(top, transparent 0%, #f0ece4 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#f0ece4));
+		background: -webkit-linear-gradient(top, transparent 0%, #f0ece4 100%);
+		background: -o-linear-gradient(top, transparent 0%,#f0ece4 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#f0ece4 100%);
+		background: linear-gradient(transparent 0%,#f0ece4 100%);
+		-pie-background: linear-gradient(transparent, #f0ece4);
 	}
 
 	.featured-snippets-container .micro-response-title a
@@ -1225,8 +1225,8 @@
 
 	.skip-to-content
 	{
-		color: #45494C;
-		background-color: #FFFFFF;
+		color: #3c352d;
+		background-color: #f0ece4;
 	}
 }
 
