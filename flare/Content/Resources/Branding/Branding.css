@@ -11,9 +11,9 @@
 	--Medium: #afa090;
 	--Dark: #3c352d;
 	--Darkest: #2d2722;
-	--FontFamily: Gadugi;
 	--LogoImage: url('../Images/my-logo.png');
 	--LogoImagePrint: url('../Images/my-logo.png');
 	--HeroImage: url('../Images/hero.png');
+	--FontFamily: Arial, Avenir, Myriad;
 }
 
