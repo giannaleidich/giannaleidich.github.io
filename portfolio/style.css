@@ -515,6 +515,7 @@ nav > ul > li {
 
 .case-studies-container {
     display: grid;
+    
     grid-template-columns: 1fr;
     grid-template-rows: min-content 4fr;
 }
