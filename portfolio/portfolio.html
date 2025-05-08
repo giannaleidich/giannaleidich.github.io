@@ -8,10 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-    <link href="./style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../images/favicon.png"> 
-    <!-- <link href="./style.css" rel="stylesheet"> -->
-    <title>Portfolio</title>
+    <link href="./style.css" rel="stylesheet">
+    <title>Gianna Leidich - Portfolio</title>
 </head>
 
 <body class="non-home-body">
@@ -19,11 +18,11 @@
         <nav>
             <ul>
                 <li id="gianna-leidich"><a href="../index.html" id="gianna-leidich-link">Gianna Leidich</a></li>
-                <div id="nav-spacer"></div>
+                <li id="nav-spacer"></li>
                 <li id="about-me"><a href="./about-me.html" class="default-link">About Me</a></li>
                 <li id="portfolio"><a href="./portfolio.html" class="default-link">Portfolio</a></li>
                 <li id="resume"><a href="./resume.html" class="default-link">Resume</a></li>
-                <li id="contact"><a href="./contact.html" class="default-link">Contact</a></lid>
+                <li id="contact"><a href="./contact.html" class="default-link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -33,13 +32,16 @@
 
         <div id="portfolio-container">
 
-            <div id="case-studies-container" class="portfolio-item">
+            <div class="case-studies-container portfolio-item">
                 <h2>Websites</h2>
 
                 <div class="case-studies-item">
                     <div class="description first-description">
                         <h3>My Personal Website</h3>
-                        <p>I developed this website, the very one you are on right now, over the course of a semester.</p>
+                        <p>
+                            I developed this website, the very one you are on right now, over the course of a semester. All images 
+                            including screenshots on this website were taken by me.
+                        </p>
                     </div>
                     
                     <div class="description second-description">
@@ -59,18 +61,17 @@
                     </a>
 
 
-                    <div class="link-item first-link last-case">
+                    <div class="link-item">
                         <a href="./personal-website.html" class="default-link">Learn About the Design Process</a>
                     </div>
 
-                   
 
                 </div>
 
 
             </div>
 
-            <div id="case-studies-container" class="portfolio-item">
+            <div class="case-studies-container portfolio-item">
                 <div class="case-studies-item">
                     <div class="description first-description">
                         <h3>UMass Housing-cyclopedia</h3>
@@ -92,13 +93,10 @@
                         <img src="../images/umass-farmers-market-map.png" alt="UMass Farmer's Market Map home page.">
                     </a>
 
-                    
-
-
                 </div>
             </div>
 
-            <div id="case-studies-container" class="portfolio-item">
+            <div class="case-studies-container portfolio-item">
                 <div class="case-studies-item">
                     <div class="description first-description">
                         <h3>UMass Center for Data Science</h3>
@@ -169,11 +167,19 @@
                     <div><p> </p></div>
                     <!-- spacer -->
 
-                    <p class="link-item special">
-                        <a href="../pdfs/final-submission-draft.pdf" class="default-link">View the PDF</a>
-                        _
-                        <a href="https://giannaleidich.github.io/flare/Content/Home.htm" class="default-link">Visit the Website</a>
-                    </p>
+                    <div class="link-item links-container"> 
+                        <div>
+                            <a href="../pdfs/final-submission-draft.pdf" class="default-link">View the PDF</a>
+                        </div>
+
+                        <div>
+                            <a href="https://giannaleidich.github.io/flare/Content/Home.htm" class="default-link">Visit the Website</a>
+                        </div> 
+                        
+
+                    </div>
+
+    
                     
                         
                     <div><p> </p></div>
@@ -201,7 +207,7 @@
                         <div id="carousel-cds">
                             <div id="overlay-cds" class="left">
                             </div>
-                            <img src="../images/graphics/cds-graphic-hfa.png" class="carousel-item">
+                            <img src="../images/graphics/cds-graphic-hfa.png" alt="A CDS graphic." class="carousel-item">
                         </div>
 
                         <div class="link-item last-case">
@@ -213,7 +219,7 @@
                         <div id="carousel-jabberwocky">
                             <div id="overlay-jabberwocky" class="left">
                             </div>
-                            <img src="../images/graphics/jabberwocky-graphic-poster.png" class="carousel-item">
+                            <img src="../images/graphics/jabberwocky-graphic-poster.png" alt="A Jabberwocky graphic." class="carousel-item">
                         </div>
 
                         <div class="link-item">

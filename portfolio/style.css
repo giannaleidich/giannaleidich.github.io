@@ -4,12 +4,13 @@ body {
     padding: 0px;
 
     font-family: "Funnel Sans", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-weight: 300;
     font-style: normal;
     font-size: 1.5rem;
 }
 
+/* initialize default heading and paragraph styling */
 h1, h2, h3 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -34,15 +35,6 @@ p {
 
     margin-top: 20px;
     margin-bottom: 20px;
-
-    /* line-height: 2.15rem; */
-
-}
-
-#home-body {
-    display: grid;
-    grid-template-rows: 10vh 80vh 10vh;
-    overflow: hidden;
 }
 
 /* header */
@@ -81,7 +73,7 @@ nav > ul > li {
     margin-right: 15px;
 
     font-family: "Funnel Sans", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-weight: 300;
     font-style: normal;
     font-size: 1.5rem;
@@ -133,7 +125,7 @@ nav > ul > li {
     grid-column: 1/2;
 
     font-family: "Funnel Sans", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-weight: 300;
     font-style: normal;
     font-size: 2.5rem;
@@ -148,7 +140,7 @@ nav > ul > li {
 
 
 
-
+/* navbar styling for smaller screens */
 @media only screen and (max-width: 900px) {
     #home-body {
         display: grid;
@@ -218,9 +210,14 @@ nav > ul > li {
     }
 }
 
+/* initialize homepage structure */
+#home-body {
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    overflow: hidden;
+}
 
-
-/* main */
+/* styling homepage */
 #home-page {
     grid-row: 2/3;
 
@@ -258,10 +255,8 @@ nav > ul > li {
 
 
     display: grid;
-    /* grid-template-columns: 25vw 35vw; */
     grid-template-columns: 17.5vw 42.5vw;
     grid-template-rows: 40vh;
-
 }
 
 #home-content-text {
@@ -277,10 +272,17 @@ nav > ul > li {
     line-height: 2.15rem;
 }
 
+/* special container for side-by-side link */
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
 
-#home-content-links-container {
-    line-height: 60px;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px;
+
 }
+
 
 #home-content-text > a {
     margin-top: 100px;
@@ -297,12 +299,9 @@ nav > ul > li {
     grid-column: 1/2;
 }
 
-#home-content p {
-    margin-bottom: 0px;
-}
 
 
-
+/* homepage styling for smaller screen */
 @media only screen and (max-width: 900px) {
     body {
         overflow: scroll;
@@ -352,13 +351,13 @@ nav > ul > li {
     }
 }
 
+/* styling for non-home pages */
 .non-home-body {
     overflow: scroll;
     display: grid;
     grid-template-rows: 10vh min-content 10vh;
 }
 
-/* change to non-home-main? */
 .non-home-main {
     margin-left: 20vw;
     margin-right: 20vw;
@@ -368,7 +367,7 @@ nav > ul > li {
     margin-top: 40px;
 }
 
-/* about me */
+/* about me page stying*/
 #about-me-page > img {
     height: auto;
     width: 50%;
@@ -382,12 +381,13 @@ nav > ul > li {
     margin-bottom: 40px;
 }
 
-
+/* special styling for "buttons" at the top */
 .bottom-button {
     text-align: center;
     margin-bottom: 0px;
 }
 
+/* non-homepage styling for smaller screens */
 @media only screen and (max-width: 900px) {
     .non-home-body {
         display: grid;
@@ -402,15 +402,12 @@ nav > ul > li {
 
 }
 
-
 #page-bottom-spacer {
     grid-row: 3/4;
 }
 
 
-
-
-/* resume */
+/* resume page styling */
 #resume-page p, h2{
     margin: 0px;
 }
@@ -436,6 +433,18 @@ nav > ul > li {
 
 }
 
+
+.resume-item.links-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px;
+
+    justify-content: center;
+}
+
 .resume-item + .resume-item {
     margin-top: 20px;
 }
@@ -449,15 +458,11 @@ nav > ul > li {
 .date {
     grid-column: 1/2;
     grid-row: 2/3;
-
-    /* border: solid orange; */
 }
 
 .experience {
     grid-column: 2/3;
     grid-row: 2/3;
-
-    /* border: solid orange; */
 }
 
 .experience > ul > li {
@@ -477,7 +482,7 @@ nav > ul > li {
 }
 
 
-/* portfolio */
+/* portfolio page styling */
 #portfolio-page p, h2{
     margin: 0px;
 }
@@ -508,8 +513,7 @@ nav > ul > li {
 }
 
 
-
-#case-studies-container {
+.case-studies-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: min-content 4fr;
@@ -524,13 +528,16 @@ nav > ul > li {
     column-gap: 5%;
 }
 
-
 .case-studies-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border: solid black 0.75px;
 } 
+
+.case-studies-item .link-item {
+    margin-top: 30px;
+}
 
 #writing-samples-container {
     display: grid;
@@ -552,7 +559,7 @@ nav > ul > li {
 }
 
 .link-item {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #designs-container {
@@ -580,7 +587,6 @@ nav > ul > li {
 
 #case-studies-container .link-item {
     margin-top: 30px;
-    /* border: solid red; */
 }
 
 #designs-container .link-item {
@@ -588,7 +594,7 @@ nav > ul > li {
 }
 
 
-
+/* portfolio page styling for smaller screens */
 @media only screen and (max-width: 900px) {
     .case-studies-item {
         grid-template-columns: 100%;
@@ -653,20 +659,16 @@ nav > ul > li {
     display: inline-block;
 }
 
+/* contact page styling for smaller screens */
 @media only screen and (max-width: 900px) {
-    #contact-body {
-        overflow: scroll;
+    #contact-page > img {
+        width: 75%;
+        height: auto;
     }
 }
 
 
-.default-link + .default-link {
-    margin-top: 15px;
-}
-
-
-
-/* cds */
+/* cds section of portfolio page*/
 #carousel-cds {
     position: relative;
     width: 100%; 
@@ -729,7 +731,7 @@ nav > ul > li {
 }
 
 
-/* jabberwocky */
+/* jabberwocky section of portfolio page */
 #carousel-jabberwocky {
     position: relative;
     width: 100%; 
@@ -792,27 +794,15 @@ nav > ul > li {
     opacity: 75%;
 }
 
-.special {
-    color: white;
-}
 
-
-
+/* narrative page styling */
 #narrative-container {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-/* #narrative-page h2, h3 {
-    margin-bottom: 10px;
-} */
-
-
-
-
 #narrative-container p:last-child {
     margin-top: 57.5px;
-    /* border: solid red; */
 }
 
 #narrative-page img {
@@ -820,16 +810,11 @@ nav > ul > li {
     width: 100%;
 
     display: block;
-    /* display: inline; */
-
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
 
     border: solid black 0.75px;
-    
 }
 
-/* spacing */
+/* special spacing */
 #narrative-page p + h2 {
     margin-top: 30px;
 }
@@ -847,7 +832,7 @@ nav > ul > li {
 }
 
 .in-line-link {
-    color: black;
+    color: slategray;
 }
 
 .narrative-img-container {

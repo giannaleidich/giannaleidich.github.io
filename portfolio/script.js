@@ -71,6 +71,7 @@ carousel_cds.addEventListener("click", (event) => {
         
         const nextImage = document.createElement("img");
         nextImage.setAttribute("src", IMAGE_SOURCES_CDS[COUNTER_CDS]);
+        nextImage.setAttribute("alt", "A CDS graphic.")
         nextImage.classList.add("carousel-item");
         carousel_cds.appendChild(nextImage)
     } 
@@ -86,6 +87,7 @@ carousel_cds.addEventListener("click", (event) => {
 
         const nextImage = document.createElement("img");
         nextImage.setAttribute("src", IMAGE_SOURCES_CDS[COUNTER_CDS]);
+        nextImage.setAttribute("alt", "A CDS graphic.")
         nextImage.classList.add("carousel-item");
         carousel_cds.appendChild(nextImage)
     }
@@ -143,6 +145,7 @@ carousel_jabberwocky.addEventListener("click", (event) => {
         
         const nextImage = document.createElement("img");
         nextImage.setAttribute("src", IMAGE_SOURCES_JABBERWOCKY[COUNTER_JABBERWOCKY]);
+        nextImage.setAttribute("alt", "A Jabberwocky graphic.")
         nextImage.classList.add("carousel-item");
         carousel_jabberwocky.appendChild(nextImage)
     } 
@@ -158,6 +161,7 @@ carousel_jabberwocky.addEventListener("click", (event) => {
 
         const nextImage = document.createElement("img");
         nextImage.setAttribute("src", IMAGE_SOURCES_JABBERWOCKY[COUNTER_JABBERWOCKY]);
+        nextImage.setAttribute("alt", "A Jabberwocky graphic.")
         nextImage.classList.add("carousel-item");
         carousel_jabberwocky.appendChild(nextImage)
     }
