@@ -515,7 +515,7 @@ nav > ul > li {
 
 .case-studies-container {
     display: grid;
-    
+
     grid-template-columns: 1fr;
     grid-template-rows: min-content 4fr;
 }
@@ -852,4 +852,14 @@ nav > ul > li {
 .non-narrative-img-container {
     margin-top: 40px;
     margin-bottom: 50px;
+}
+
+#special-resize.non-narrative-img-container {
+    width: 50%;
+    height: auto;
+}
+
+#narrative-page li + li {
+    margin-top: 12.5px;
+    /* border: solid red; */
 }

@@ -18,7 +18,9 @@ const IMAGE_SOURCES_JABBERWOCKY = [
     "../images/graphics/jabberwocky-graphic-poster.png",
     "../images/graphics/jabberwocky-graphic-instagram.png",
     "../images/graphics/jabberwocky-graphic-submit.png",
-    "../images/graphics/jabberwocky-graphic-reminder.png"
+    "../images/graphics/jabberwocky-graphic-reminder.png",
+    "../images/graphics/jabberwocky-graphic-launch-party1.png",
+    "../images/graphics/jabberwocky-graphic-launch-party2.png"
 ]
 
 const NUM_IMAGES_JABBERWOCKY = IMAGE_SOURCES_JABBERWOCKY.length;
