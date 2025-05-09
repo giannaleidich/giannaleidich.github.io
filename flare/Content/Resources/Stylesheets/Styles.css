@@ -794,6 +794,11 @@ MadCap|question
 		mc-format: '{quote}{para}{quote} {pageref}';
 		text-decoration: none;
 	}
+
+	li.StayTogether
+	{
+		page-break-inside: avoid;
+	}
 }
 
 h1.HomePageTitle	/*To get around WAVE contrast checker*/
@@ -802,5 +807,11 @@ h1.HomePageTitle	/*To get around WAVE contrast checker*/
 	font-size: 24.0pt;
 	color: #42473d;
 	background-color: #74685a;
+}
+
+li.StayTogether
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
 }
 
