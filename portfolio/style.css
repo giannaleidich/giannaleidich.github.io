@@ -282,6 +282,11 @@ nav > ul > li {
     row-gap: 20px;
     margin-top: 20px;
 
+    /* justify-content: center; */
+}
+
+#about-me-page .links-container {
+    justify-content: center;
 }
 
 
@@ -384,6 +389,10 @@ nav > ul > li {
 
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+#about-me-page p:last-child {
+    margin-top: 40px;
 }
 
 /* special styling for "buttons" at the top */
@@ -645,6 +654,10 @@ nav > ul > li {
         grid-template-rows: min-content min-content min-content min-content min-content min-content;
     }
 
+    .increase-margin-on-resize {
+        margin-bottom: 60px;
+    }
+
 }
 
 #contact-page > img {
@@ -670,6 +683,15 @@ nav > ul > li {
     #contact-page > img {
         width: 75%;
         height: auto;
+    }
+
+    #about-me-page img {
+        width: 75%;
+        height: auto;
+    }
+
+    #about-me-page p:last-child {
+        margin-bottom: 30px;
     }
 }
 
