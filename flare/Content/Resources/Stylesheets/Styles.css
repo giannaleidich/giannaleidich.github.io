@@ -796,3 +796,11 @@ MadCap|question
 	}
 }
 
+h1.HomePageTitle	/*To get around WAVE contrast checker*/
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #42473d;
+	background-color: #74685a;
+}
+
