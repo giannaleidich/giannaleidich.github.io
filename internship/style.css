@@ -1,0 +1,82 @@
+:root {
+    --genai-accent: #417B5A;
+    --umass-red: #881c1c;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    overflow: hidden;
+
+    color: white;
+    /* background-color: white; */
+    background-image: url("./umass.jpg");
+    background-position: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 40vh 20vh 40vh;
+    align-items: center;
+
+    /* entire screen */
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, p {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+        
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+button {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+#banner.umass {
+    background-color: var(--umass-red);
+    grid-row: 2/3;
+
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#banner.genai {
+    background-color: var(--genai-accent);
+    grid-row: 2/3;
+
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
