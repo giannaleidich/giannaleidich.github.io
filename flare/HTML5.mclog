@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5.fltar" Date="2025-05-03T18:26:27.4314685-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated HTML5.fltar" Date="2025-05-09T11:46:24.2998148-04:00">
     <Messages>Compiling target HTML5...
 Removing previously generated content...
 Loading skin info...
@@ -93,7 +93,7 @@ Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
 Ignored Compiler Warnings: 3
-Output generated in 8 second(s).
+Output generated in 9 second(s).
 
 Done
 Saving log to "C:\Users\gleidich\OneDrive - University of Massachusetts\Documents\My Projects\final-submission\Output\gleidich\HTML5\HTML5.mclog"
