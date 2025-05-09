@@ -4,16 +4,16 @@
 
 :root
 {
-	--Primary: #076685;
-	--Secondary: #CDE0E7;
-	--Dark: #45494C;
-	--Darkest: #000000;
-	--Light: #DADEE1;
-	--Lightest: #FFFFFF;
-	--Medium: #A4AAAE;
-	--HeroImage: url('../Images/Hero-Image.png');
+	--Primary: #42473d;
+	--Secondary: #d4dbcd;
+	--Dark: #3c352d;
+	--LogoImage: url('../Images/my-logo.png');
+	--LogoImagePrint: url('../Images/my-logo.png');
+	--HeroImage: url('../Images/hero.png');
 	--FontFamily: Arial, Avenir, Myriad;
-	--LogoImage: url('../Images/Logo.png');
-	--LogoImagePrint: url('../Images/Logo.svg');
+	--Darkest: #000000;
+	--Lightest: #f0ece4;
+	--Light: #e7ded6;
+	--Medium: #74685a;
 }
 
