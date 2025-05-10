@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/accessibility-in-text/accessibility-in-text.htm'],s:['1'],p:[['1',3],['horizontal',6],['this',5]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/accessibility-in-text/accessibility-in-text.htm'],s:['1'],p:[['1',3],['here',8],['therefore',4]]});
