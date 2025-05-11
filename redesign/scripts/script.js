@@ -4,6 +4,8 @@ const contrast_button = document.getElementById("contrast-button");
 const mode_button = document.getElementById("mode-button");
 const text_button = document.getElementById("text-button");
 
+const mode_icon = document.getElementById("mode-icon");
+
 const email_input = document.getElementById("email-input");
 const email_button = document.getElementById("email-button");
 
@@ -13,6 +15,7 @@ const jobs = document.getElementById("jobs");
 const parks = document.getElementById("parks");
 const transportation = document.getElementById("transportation");
 const about = document.getElementById("about");
+const not_found = document.getElementById("not-found");
 
 let PAGE = null;
 
@@ -43,18 +46,42 @@ const assignPage = () => {
         PAGE = parks;
     } else if (transportation !== null) {
         PAGE = transportation;
+    } else if (not_found !== null ){
+        PAGE = not_found;
     } else {
         PAGE = about;
     }
 }
-// initialize page load 
 
+// initialize page load 
 window.addEventListener("load", () => {
     assignPage();
     PAGE.classList.add(STORAGE.get("contrast")); // should not be null at this point
     PAGE.classList.add(STORAGE.get("mode")); 
     PAGE.classList.add(STORAGE.get("text"));
+
+    let initalMode = STORAGE.get("mode"); 
+
+    changeModeIcon(initalMode);
+
 })
+
+const changeModeIcon = (initalMode) => {
+    if (initalMode == "mode-dark") {
+        if (PAGE == home) {
+            mode_icon.setAttribute("src", "./images/icons/moon-icon.png");
+        } else {
+            mode_icon.setAttribute("src", "../images/icons/moon-icon.png");
+        }
+    } else {
+        if (PAGE == home) {
+            mode_icon.setAttribute("src", "./images/icons/sun-icon.png");
+        } else {
+            mode_icon.setAttribute("src", "../images/icons/sun-icon.png");
+        }
+        
+    }
+}
 
 
 // buttons toggle between the two different options
@@ -71,6 +98,9 @@ mode_button.addEventListener("click", () => {
     const values = STORAGE.toggle("mode");
     PAGE.classList.remove(values[0]);
     PAGE.classList.add(values[1]);
+
+    changeModeIcon(values[1]);
+    
 })
 
 text_button.addEventListener("click", () => {
