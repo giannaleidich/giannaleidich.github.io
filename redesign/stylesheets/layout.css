@@ -573,8 +573,21 @@ button {
     cursor: pointer;
 }
 
+/* special styling for about page */
 #about-container {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+    column-gap: 30px;
+}
+
+
+#not-found-contasiner {
+    min-height: 50vh;
+}
+
+#not-found-icon {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
 }
