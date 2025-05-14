@@ -1,5 +1,5 @@
 :root {
-    --genai-accent: #417B5A;
+    --genai-accent: #586F7C;
     --umass-red: #881c1c;
 }
 
@@ -40,7 +40,7 @@ h1, p {
 
 h1 {
     font-size: 5rem;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 p {
@@ -55,6 +55,26 @@ a {
 
 a:hover {
     color: lightgray;
+}
+
+#heading-logo-container {
+    /* border: solid red; */
+    display: grid;
+    grid-template-columns: min-content 100px 1fr;
+    column-gap: 20px;
+    grid-template-rows: min-content;
+
+    margin-bottom: 15px;
+}
+
+#heading-logo-container {
+    white-space: nowrap;
+}
+
+#heading-logo-container > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 button {
